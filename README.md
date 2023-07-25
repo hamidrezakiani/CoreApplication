@@ -14,7 +14,7 @@ This is a plugin based laravel application. You can install your custom library 
 
 #### 3. Install vendor
    Run <code>composer install</code> on application root directory <br />
-   Set your database congig .env file <br />
+   Set your database congig `.env ` file <br />
    Run <code>php artisan migrate</code> <br />
    Run <code>php artisan db:seed UserSeeder</code> <br />
    Run <code>php artisan serve</code> <br />
