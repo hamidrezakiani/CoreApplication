@@ -22,7 +22,7 @@ This is a plugin based laravel application. You can install your custom library 
 
 ### Now you can install library or plugin and see installed packages list.
 
-#### *After installing each package, Run the: <br />
+### *After installing each package, Run the: <br />
                    <code>php artisan vendor:publish</code> <br />
  to publish its necessary files. <br />
 
