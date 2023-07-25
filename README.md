@@ -14,16 +14,22 @@ This is a plugin based laravel application. You can install your custom library 
 
 ### 3. Install vendor
    Run <code>composer install</code> on application root directory <br />
+   
    Set your database config `.env ` file <br />
+   
    Run <code>php artisan migrate</code> <br />
+   
    Run <code>php artisan db:seed UserSeeder</code> <br />
+   
    Run <code>php artisan serve</code> <br />
 
 
 ### Now you can install library or plugin and see installed packages list.
 
-### *After installing each package, Run the: <br />
-                   <code>php artisan vendor:publish</code> <br />
+ *After installing each package, Run the: <br />
+ 
+                   `php artisan vendor:publish</code>`
+                   
  to publish its necessary files. <br />
 
 ## License
