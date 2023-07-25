@@ -6,8 +6,6 @@ This is a plugin based laravel application. You can install your custom library 
 ## How to use
 
 ### 1. Clone the Application :
-   <code>git clone https://github.com/hamidrezakiani/CoreApplication.git<code>
-
 #### 2. Install dependencies:
    php ^8.0 <br />
    mysql database <br />
