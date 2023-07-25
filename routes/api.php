@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\LibraryController;
+use App\Http\Controllers\PluginController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('plugins/install',[PluginController::class,'store']);
+Route::post('plugins/uninstall',[PluginController::class,'destroy']);
+Route::post('libraries/install',[LibraryController::class,'store']);
+Route::post('libraries/uninstall',[LibraryController::class,'destroy']);
