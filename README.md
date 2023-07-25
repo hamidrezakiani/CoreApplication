@@ -28,7 +28,7 @@ This is a plugin based laravel application. You can install your custom library 
 
  *After installing each package, Run the: <br />
  
-                   `php artisan vendor:publish</code>`
+                   `php artisan vendor:publish`
                    
  to publish its necessary files. <br />
 
